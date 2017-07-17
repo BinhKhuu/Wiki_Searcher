@@ -1,0 +1,125 @@
+body, html {
+  height: 100%;
+  min-width: 480px;
+  background: #243651;
+}
+#background {
+  height: 100vh;
+  background: #243651;
+  color: white;
+}
+.box-results {
+  text-align:center;
+  width: 340px;
+  height: 200px; 
+  margin-left: 50%;
+  transform: translate(-50%,0);
+}
+.box {
+  text-align:center;
+  width: 340px;
+  height: 200px;
+  margin-top: 10%;
+  margin-left: 50%;
+  transform: translate(-50%,0);
+}
+#rand-btn:hover {
+  color: #F6C92B; 
+}
+#top-box, #center-box, #bottom-box {
+  height: 33.33%;
+}
+.box-btn {
+  height:100%;
+  width: 100%;
+  font-size: 20px;
+  background: #243651;
+  color: #EE8D49;
+  border: 0 !important;
+  outline: 0 !important;
+}
+.search-box { 
+  width: 10px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 3px solid #EE8D49; 
+  border-radius: 100px;
+  font-size: 10px;
+  background-color: #243651;
+  background-image: url("http://png.findicons.com/files/icons/1389/g5_system/32/toolbar_find.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  margin: 0;
+}
+
+.search-box-focus {
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px 0px 0px 20px;
+    border-right-style: none;
+    width: 70%;
+    background-image: url("http://png.findicons.com/files/icons/1389/g5_system/32/toolbar_find.png");
+    background-position: 3%;
+    background-repeat: no-repeat;
+    outline: none;
+    margin-right: 0px;
+}
+.x-btn:hover {
+  color: #F6C92B;
+}
+.x-btn {
+  display: inline-block;
+  border: 3px solid #EE8D49; 
+  box-sizing: border-box;
+  font-size: 20px;
+  height:100%;
+  border-radius: 0px 20px 20px 0px;
+  font-size: 20px;
+  background: #243651;
+  color: #EE8D49;
+  padding: 12px 12px 14px 5px;
+  margin-left: -8px;
+  border-left-style: none;
+}
+
+.invis-btn { 
+  margin-left: 500px;
+  margin-top: 500px;
+  font-size: 0px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: #243651;
+}
+
+#sub-btn:hover {
+  color: #F6C92B;
+}
+#sub-btn {
+  font-size: 15px;
+  margin-left: 5px;
+  border: none;
+  background: #243651;
+  color: #EE8D49;
+}
+
+
+
+.info {
+  
+  display: none;
+  height: 130px;
+  background: #557096;
+  color: black;
+  margin: 2px;
+}
+.info:hover {
+  background: #EE8D49;
+  color: black; 
+}
